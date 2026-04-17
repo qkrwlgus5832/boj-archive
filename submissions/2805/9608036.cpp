@@ -1,0 +1,60 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int N, M;
+vector <int> v;
+
+
+
+int tree(int x) {
+	int result = 0;
+	for (int i = 0; i < N; i++) {
+		if (v[i] > x) {
+			result = result + v[i] - x;
+		}
+
+	}
+	return result;
+}
+
+int binary_search(int x, int y, int x1) {
+	if (x + 1 == y) {
+		if (tree(y) >= x1)
+			return y;
+		else
+			return x;
+	}
+	else if (x==y)
+		return x;
+	else if (tree((x + y) / 2) >= x1)
+		return binary_search((x + y) / 2, y, x1);
+	else if (tree(x + y) / 2 < x1)
+		return binary_search(x, (x + y) / 2 - 1, x1);
+
+}
+
+
+
+
+int main() {
+	cin >> N >> M;
+
+	int tmp;
+
+	for (int i = 0; i < N; i++) {
+		scanf("%d", &tmp);
+		v.push_back(tmp);
+	}
+	sort(v.begin(), v.end());
+
+
+	cout << binary_search(1, v[v.size() - 1], M);
+
+
+
+
+}

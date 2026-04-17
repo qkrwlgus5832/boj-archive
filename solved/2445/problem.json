@@ -1,0 +1,14 @@
+{
+  "problemId": 2445,
+  "title": "별 찍기 - 8",
+  "timeLimit": "1 초",
+  "memoryLimit": "128 MB",
+  "description": "<p>예제를 보고 규칙을 유추한 뒤에 별을 찍어 보세요.</p>",
+  "inputDesc": "<p>첫째 줄에 N(1 ≤ N ≤ 100)이 주어진다.</p>",
+  "outputDesc": "<p>첫째 줄부터 2×N-1번째 줄까지 차례대로 별을 출력한다.</p>",
+  "tags": [
+    "성공",
+    "구현"
+  ],
+  "fetchedAt": "2026-04-17T04:11:42.092Z"
+}

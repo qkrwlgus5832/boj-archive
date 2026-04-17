@@ -1,0 +1,14 @@
+{
+  "problemId": 2556,
+  "title": "별 찍기 - 14",
+  "timeLimit": "1 초",
+  "memoryLimit": "128 MB",
+  "description": "<p>지금까지 안 나온 별 찍기가 뭐가 있는지 생각해본 후, 별을 적절히 찍으세요.</p>",
+  "inputDesc": "<p>첫째 줄에 N(1 ≤ N ≤ 100)이 주어진다.</p>",
+  "outputDesc": "<p>N개의 줄에 걸쳐 별을 적절히 찍는다.</p>",
+  "tags": [
+    "성공",
+    "구현"
+  ],
+  "fetchedAt": "2026-04-17T04:13:03.858Z"
+}

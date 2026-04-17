@@ -1,0 +1,14 @@
+{
+  "problemId": 10801,
+  "title": "카드게임",
+  "timeLimit": "1 초",
+  "memoryLimit": "256 MB",
+  "description": "<p>두 사람 A와 B는 1부터 10까지의 숫자가 하나씩 적힌 열 장의 카드로 ‘게임’을 한다. 게임은 총 열 번의 ‘라운드’로 구성되고, 각 라운드 마다 자신이 가지고 있는 카드 중 하나를 제시하고, 한 번 제시한 카드는 버린다. 게임 승패는 다음과 같이 결정된다. </p>\n\n<ol>\n\t<li>각 라운드는 더 높은 숫자를 제시한 사람이 승리하고, 제시한 숫자가 같은 경우는 비긴다. </li>\n\t<li>열 번의 라운드에서 더 많은 라운드를 승리한 사람이 게임을 승리하고, 승리한 라운드 횟수가 동일한 경우 비긴다. </li>\n</ol>\n\n<p>다음은 게임의 한 예로, 각 라운드마다 A와 B가 제시한 카드의 숫자와 각 라운드의 승자를 보여준다. (비긴 라운드는 D로 표시함)</p>\n\n<table class=\"table table-bordered\" style=\"width:50%\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>라운드</th>\n\t\t\t<th>1</th>\n\t\t\t<th>2</th>\n\t\t\t<th>3</th>\n\t\t\t<th>4</th>\n\t\t\t<th>5</th>\n\t\t\t<th>6</th>\n\t\t\t<th>7</th>\n\t\t\t<th>8</th>\n\t\t\t<th>9</th>\n\t\t\t<th>10</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>A의 카드</th>\n\t\t\t<td>6</td>\n\t\t\t<td>7</td>\n\t\t\t<td>5</td>\n\t\t\t<td>1</td>\n\t\t\t<td>4</td>\n\t\t\t<td>10</td>\n\t\t\t<td>2</td>\n\t\t\t<td>3</td>\n\t\t\t<td>8</td>\n\t\t\t<td>9</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th>B의 카드</th>\n\t\t\t<td>1</td>\n\t\t\t<td>10</td>\n\t\t\t<td>2</td>\n\t\t\t<td>9</td>\n\t\t\t<td>4</td>\n\t\t\t<td>8</td>\n\t\t\t<td>3</td>\n\t\t\t<td>7</td>\n\t\t\t<td>5</td>\n\t\t\t<td>6</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th>라운드 승자</th>\n\t\t\t<td>A</td>\n\t\t\t<td>B</td>\n\t\t\t<td>A</td>\n\t\t\t<td>B</td>\n\t\t\t<td>D</td>\n\t\t\t<td>A</td>\n\t\t\t<td>B</td>\n\t\t\t<td>B</td>\n\t\t\t<td>A</td>\n\t\t\t<td>A</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>A는 5번의 라운드에서 승리하고 B는 4번의 라운드에서 승리하였으므로, 이 게임은 A가 승리한다. </p>\n\n<p>라운드 순서대로 A와 B가 제시한 카드의 숫자가 주어졌을 때, 게임의 승자를 판단하는 프로그램을 작성하시오. </p>",
+  "inputDesc": "<p>첫 번째 줄에는 A가 제시한 카드의 숫자 10개가 라운드 순서대로 주어지고, 두 번째 줄에는 B가 제시한 카드의 숫자 10개가 라운드 순서대로 주어진다.</p>",
+  "outputDesc": "<p>게임의 승패가 결정되는 경우 승리한 사람을 출력하고, 비기는 경우에는 D를 출력한다. </p>",
+  "tags": [
+    "성공",
+    "구현"
+  ],
+  "fetchedAt": "2026-04-17T04:25:30.581Z"
+}

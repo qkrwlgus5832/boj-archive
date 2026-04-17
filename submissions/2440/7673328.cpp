@@ -1,0 +1,20 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <iostream>
+
+using namespace std;
+
+int N;
+int main() {
+	cin >> N;
+
+	for (int i = N; i >= 1; i--) {
+		for (int j = 1; j <= i; j++) {
+			
+			printf("*");
+		}
+		printf("\n");
+	}
+
+
+}

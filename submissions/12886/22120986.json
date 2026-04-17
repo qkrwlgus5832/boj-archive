@@ -1,0 +1,11 @@
+{
+  "submissionId": 22120986,
+  "problemId": 12886,
+  "problemTitle": "돌 그룹",
+  "result": "런타임 에러 (OutOfBounds)",
+  "memory": 0,
+  "time": 0,
+  "language": "C++14 / 수정",
+  "codeLength": 1094,
+  "submittedAt": "2020년 8월 28일 23:24:31"
+}

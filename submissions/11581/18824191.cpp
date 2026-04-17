@@ -1,0 +1,59 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <iostream>
+#include <queue>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+int depth[101];
+vector <int> graph[101];
+
+string topologicalSort(int N) {
+	queue <int> q;
+
+	if (depth[1] == 0) {
+		q.push(1);
+	}
+
+	int count = 0;
+
+	while (q.size()) {
+		int front = q.front();
+		q.pop();
+
+		count++;
+		for (int node : graph[front]) {
+			if (--depth[node] == 0) {
+				q.push(node);
+			
+			}
+		}
+	}
+	
+	if (count == N) {
+		return "NO CYCLE";
+	}
+	return "CYCLE";
+}
+
+int main() {
+	int N;
+	cin >> N;
+
+	int count;
+	int number;
+	for (int i = 1; i <= N - 1; i++) {
+		scanf("%d", &count);
+		for (int j = 0; j < count; j++) {
+			scanf("%d", &number);
+			graph[i].push_back(number);
+			depth[number]++;
+		}
+	}
+	
+	cout << topologicalSort(N);
+	//system("Pause");
+
+}

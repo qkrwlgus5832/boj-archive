@@ -1,0 +1,14 @@
+{
+  "problemId": 1915,
+  "title": "가장 큰 정사각형",
+  "timeLimit": "1 초",
+  "memoryLimit": "128 MB",
+  "description": "<p>n×m의 0, 1로 된 배열이 있다. 이 배열에서 1로 된 가장 큰 정사각형의 크기를 구하는 프로그램을 작성하시오.</p>\n\n<table class=\"table table-bordered\" style=\"width: 16%\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width: 4%; text-align: center;\">0</td>\n\t\t\t<td style=\"width: 4%; text-align: center;\">1</td>\n\t\t\t<td style=\"width: 4%; text-align: center;\">0</td>\n\t\t\t<td style=\"width: 4%; text-align: center;\">0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\t\t\t<td style=\"text-align: center;\">1</td>\n\t\t\t<td style=\"text-align: center;\">1</td>\n\t\t\t<td style=\"text-align: center;\">1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">1</td>\n\t\t\t<td style=\"text-align: center;\">1</td>\n\t\t\t<td style=\"text-align: center;\">1</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\t\t\t<td style=\"text-align: center;\">1</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>위와 같은 예제에서는 가운데의 2×2 배열이 가장 큰 정사각형이다.</p>",
+  "inputDesc": "<p>첫째 줄에 n, m(1 ≤ n, m ≤ 1,000)이 주어진다. 다음 n개의 줄에는 m개의 숫자로 배열이 주어진다.</p>",
+  "outputDesc": "<p>첫째 줄에 가장 큰 정사각형의 넓이를 출력한다.</p>",
+  "tags": [
+    "성공",
+    "다이나믹 프로그래밍"
+  ],
+  "fetchedAt": "2026-04-17T04:04:16.139Z"
+}

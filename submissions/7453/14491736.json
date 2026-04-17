@@ -1,0 +1,11 @@
+{
+  "submissionId": 14491736,
+  "problemId": 7453,
+  "problemTitle": "합이 0인 네 정수",
+  "result": "런타임 에러 (Segfault)",
+  "memory": 0,
+  "time": 0,
+  "language": "C++14 / 수정",
+  "codeLength": 1845,
+  "submittedAt": "2019년 8월 10일 22:29:52"
+}

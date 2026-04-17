@@ -1,0 +1,11 @@
+{
+  "submissionId": 14791626,
+  "problemId": 11725,
+  "problemTitle": "트리의 부모 찾기",
+  "result": "시간 초과",
+  "memory": 0,
+  "time": 0,
+  "language": "C++14 / 수정",
+  "codeLength": 830,
+  "submittedAt": "2019년 8월 26일 16:57:28"
+}

@@ -1,0 +1,14 @@
+{
+  "problemId": 11004,
+  "title": "K번째 수",
+  "timeLimit": "2 초",
+  "memoryLimit": "512 MB",
+  "description": "<p>수 N개 A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>N</sub>이 주어진다. A를 오름차순 정렬했을 때, 앞에서부터 K번째 있는 수를&nbsp;구하는 프로그램을 작성하시오.</p>",
+  "inputDesc": "<p>첫째 줄에 N(1 ≤ N ≤ 5,000,000)과 K (1 ≤ K ≤ N)이 주어진다.</p>\n\n<p>둘째에는 A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>N</sub>이 주어진다. (-10<sup>9</sup> ≤ A<sub>i</sub> ≤ 10<sup>9</sup>)</p>",
+  "outputDesc": "<p>A를 정렬했을 때, 앞에서부터 K번째&nbsp;있는 수를 출력한다.</p>",
+  "tags": [
+    "성공",
+    "정렬"
+  ],
+  "fetchedAt": "2026-04-17T04:27:53.262Z"
+}

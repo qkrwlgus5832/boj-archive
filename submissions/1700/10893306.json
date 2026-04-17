@@ -1,0 +1,11 @@
+{
+  "submissionId": 10893306,
+  "problemId": 1700,
+  "problemTitle": "멀티탭 스케줄링",
+  "result": "런타임 에러 (WithoutReturning)",
+  "memory": 0,
+  "time": 0,
+  "language": "C++14 / 수정",
+  "codeLength": 1095,
+  "submittedAt": "2018년 11월 26일 17:43:34"
+}

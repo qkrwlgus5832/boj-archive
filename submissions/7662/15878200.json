@@ -1,0 +1,11 @@
+{
+  "submissionId": 15878200,
+  "problemId": 7662,
+  "problemTitle": "이중 우선순위 큐",
+  "result": "맞았습니다!!",
+  "memory": 49016,
+  "time": 1528,
+  "language": "C++14 / 수정",
+  "codeLength": 1012,
+  "submittedAt": "2019년 10월 29일 11:44:08"
+}

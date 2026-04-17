@@ -1,0 +1,11 @@
+{
+  "submissionId": 16397151,
+  "problemId": 2075,
+  "problemTitle": "N번째 큰 수",
+  "result": "메모리 초과",
+  "memory": 0,
+  "time": 0,
+  "language": "C++14 / 수정",
+  "codeLength": 877,
+  "submittedAt": "2019년 12월 8일 16:38:11"
+}
